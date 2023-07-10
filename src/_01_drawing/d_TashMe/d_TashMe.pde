@@ -19,6 +19,9 @@ void setup() {
 face = loadImage("face.jpg");
   
 // 3. Set the size of the sketch. Make it big enough to show the face you chose.
+size(600, 600);
+face.resize(600, 600);
+background(face);
 
 // 4. Resize the face so it is the same size as the sketch
 
@@ -37,7 +40,9 @@ void draw() {
 
 // 7. DRAW MUSTACHE. Use the image() command to draw the mustache.  
 //                  The image command looks like this:
-image (mustache, 200,200);
+if(mousePressed){
+image (mustache, mouseX,mouseY);
+}
 //    The numbers specify where to draw the mustache. They represent the top left corner of the image
 //    Run the program to see if the mustache is drawn on the face. Get this working before you go on.
 //    If you need to resize the mustache, do it in the setup() method after you loaded the mustache image.
