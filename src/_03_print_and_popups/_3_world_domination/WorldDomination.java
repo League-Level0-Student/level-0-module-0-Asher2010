@@ -14,7 +14,7 @@ public class WorldDomination {
 			System.out.print("You will rule the world!");
 		}
 		else {
-			System.out.print("Sign up for classes at The League");
+			System.out.print("Sign up for classes at the League");
 
 		}
 		// 3. Otherwise, tell them to sign up for classes at The League.
