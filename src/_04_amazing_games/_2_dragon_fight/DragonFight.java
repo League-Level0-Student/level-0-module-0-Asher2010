@@ -54,7 +54,7 @@ public class DragonFight {
 			// THE DRAGON RETALIATES
 
 				// 7. Find a random number between 0 and 35 and store it in dragonAttack
-			dragonAttack = ran.nextInt(25);
+			dragonAttack = ran.nextInt(35);
 				// 8. Subtract the dragon attack value from the player's health
 			playerHealth-=dragonAttack;
 			// ASSESS THE DAMAGE
